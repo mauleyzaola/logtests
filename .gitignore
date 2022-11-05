@@ -1,0 +1,6 @@
+# mocked files
+mocks/
+
+# ide files
+.idea
+.vscode
