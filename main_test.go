@@ -8,7 +8,7 @@ import (
 
 const email = "test@example.com"
 
-func TestSend_Moq(t *testing.T) {
+func TestSend(t *testing.T) {
 	var sentTo string
 	mockedEmailSender := &mocks.EmailSenderMock{
 		SendFunc: func(email string) error {
